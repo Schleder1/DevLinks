@@ -2,7 +2,7 @@ function toggleMode() {
  const html = document.documentElement;
  html.classList.toggle('light')
 
- // pegar a tag img
+/*  // pegar a tag img
  const img = document.querySelector("#profile img ")
 
  // substituir a imagem
@@ -12,6 +12,6 @@ function toggleMode() {
  }else{
   // se nao, manter a mesma img
   img.setAttribute("src", "./assets/mobile/Avatar.png")
- } 
+ }  */
 
 }
